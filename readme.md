@@ -4,12 +4,17 @@ Este curso es del canal de [SergiCode](https://www.youtube.com/watch?v=bNV6iw13R
 - Comando html y autocompletar para traer estructura HTML
 - Investigar sobre metadatos.
 - Descargar en formato favicon.
-- Ver como poner el icono.
-- Llamar el archivo como index.html
+- Llamar el archivo como index.html.
+- Averiguar mas etiquetas de texto.
 
 ## Anotaciones
 
-HTML es case sensitive.
+- HTML es case sensitive.
+- Descargar favicons 16x16 en [Iconos8](https://iconos8.es/)
+- Usar etiquetas strong y em en lugar de etiquetas b e i, ya que semanticamente funcionan mejor para los navegadores.
+- Atajo de Teclado ALT + SHIFT + FLECHA ABAJO para copiar la fila actual abajo de la posicion actual.
+- Atajo de Teclado ALT + CLICK para seleccionar varias posiciones en varias filas.
+- Atajo de Teclado ALT + FLECHA ABAJO/ARRIBA para mover la fila actual hacia abajo.
 
 ## Utilizar para hacer diseños
 
