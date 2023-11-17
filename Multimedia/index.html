@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Multimedia</title>
+  </head>
+  <body>
+    <h1>Imagenes</h1>
+    <!-- Imagenes, alt ayuda a personas ciegas, se debe colocar una descripcion de la imagen -->
+    <img
+      src="assets/img/imagen_programando.jpg"
+      alt="Vos que estas del otro lado programando profesionalmente"
+      width="300px"
+      height="200px"
+    />
+
+    <!-- Colocar imagen en un enlace -->
+    <a href="https://www.facebook.com" target="_blank"
+      ><img
+        src="assets/img/imagen_programando.jpg"
+        alt="Vos que estas del otro lado programando profesionalmente"
+        width="300px"
+        height="200px"
+    /></a>
+
+    <!-- Videos -->
+    <h1>Videos</h1>
+    <video
+      src="assets/video/video.mp4"
+      controls
+      autoplay
+      muted
+      height="250px"
+    ></video>
+    <!-- Lo mismo que el anterior, colocar poster y enlace en caso de que no este disponible -->
+    <video
+      controls
+      muted
+      height="250px"
+      poster="assets/img/imagen_programando.jpg"
+    >
+      <source src="assets/video/video.mp4" type="video/mp4" />
+      <p>
+        Tu navegador no soporta este formato, para poder descargarlo haz click
+        aqui <a href="assets/video/video.mp4"></a>
+      </p>
+    </video>
+
+    <!-- Audios -->
+    <h1>Audios</h1>
+    <audio src="assets/audio/audio.mp3" controls muted></audio>
+
+    <!-- Lo mismo que lo anterior -->
+    <audio controls muted autoplay>
+      <source src="assets/audio/audio.mp3" />
+      <p>
+        Tu navegador no soporta este formato, para poder descargarlo haz click
+        aqui <a href="assets/audio/audio.mp3"></a>
+      </p>
+    </audio>
+
+    <!-- Importar archivos JS -->
+    <script src="index.js"></script>
+  </body>
+</html>
