@@ -10,6 +10,7 @@ Este curso es del canal de [SergiCode](https://www.youtube.com/watch?v=bNV6iw13R
 ## Anotaciones
 
 - HTML es case sensitive.
+- Diseñar las paginas Mobile First.
 - Descargar favicons 16x16 en [Iconos8](https://iconos8.es/)
 - Usar etiquetas strong y em en lugar de etiquetas b e i, ya que semanticamente funcionan mejor para los navegadores.
 - Atajo de Teclado ALT + SHIFT + FLECHA ABAJO para copiar la fila actual abajo de la posicion actual.
