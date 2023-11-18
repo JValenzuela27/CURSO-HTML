@@ -22,6 +22,7 @@ Este curso es del canal de [SergiCode](https://www.youtube.com/watch?v=bNV6iw13R
 - Method get envia valor del formulario como una url separada en clave-valor (no se envia cuando hay contrasenas), post lo envia como una request body
 - Investigar sobre expresiones regulares.
 - El required no se maneja mediante HTML ya que es muy facil de hackear.
+- Investigar como hacer SVG en HTML.
 
 ## Utilizar para hacer diseños
 
