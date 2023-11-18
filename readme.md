@@ -39,3 +39,5 @@ Plataforma [Miro](https://miro.com/es/)
   - Footer
 
 Hay que utilizar las etiquetas correctas ya que ayuda al posicionamiento web en los navegadores.
+
+git checkout --orphan nueva_rama
