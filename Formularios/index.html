@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <hr />
+    <!-- Etiqueta para crear un form -->
+    <!-- En el action va la URL de destino -->
+    <!-- Method get envia valor del formulario como una url separada en clave-valor (no se envia cuando hay contrasenas), post lo envia como una request body -->
+    <form action="envio.php" method="post" target="_blank">
+      <!-- En el for debe ir el name del input -->
+      <label for="usuario">Usuario: </label>
+      <!-- Id sirve para dar estilos, name para idntificar al momento de enviar informacion y en value se define un valor por defecto -->
+      <input
+        type="text"
+        id="usuario"
+        name="usuario"
+        value="Javier Valenzuela"
+        placeholder="Ingresa tu usuario"
+        pattern="[A-Za-z0-9]+"
+        readonly
+        required
+      />
+      <br />
+      <!-- Input de email -->
+      <label for="email">email: </label>
+      <input type="email" name="email" placeholder="Escribe tu email" /><br />
+      <br />
+      <!-- Input de password -->
+      <label for="password">Contrasena: </label>
+      <input
+        type="password"
+        name="password"
+        minlength="3"
+        placeholder="Escribe tu contrasena"
+        required
+      /><br />
+      <!-- Checkbox -->
+      <input type="checkbox" name="lenguajes" value="HTML" /> HTML
+      <input type="checkbox" name="lenguajes" value="CSS" />CSS
+      <input type="checkbox" name="lenguajes" value="JS" /> JS
+      <input type="checkbox" name="lenguajes" value="C++" /> C++
+      <!-- RadioButtons -->
+      <br />
+      <input type="radio" name="lenguajes" value="HTML" /> HTML
+      <input type="radio" name="lenguajes" value="CSS" />CSS
+      <input type="radio" name="lenguajes" value="JS" /> JS
+      <input type="radio" name="lenguajes" value="C++" /> C++
+      <!-- Numeros -->
+      <br />
+      <label for="programando">Anos programando: </label>
+      <input
+        type="number"
+        id="programando"
+        name="programando"
+        placeholder="Anos programando"
+        max="1"
+        min="10"
+      /><small> El numero maximo de caracteres es 10</small><br />
+      <!-- Files -->
+      <br />
+      <label for="archivo">Sube tu curriculum: </label>
+      <input
+        type="file"
+        id="archivo"
+        name="archivo"
+        value="file"
+        multiple
+      /><br />
+      <!-- TextAreas para subir mucho texto -->
+      <label for="opinion">Opinion: </label>
+      <textarea
+        name="opinion"
+        id="opinion"
+        cols="30"
+        rows="10"
+        placeholder="Escribe tu opinion"
+        maxlength="20"
+      ></textarea>
+      <!-- ComboBox -->
+      <br /><br />
+      <label for="pais"> Selecciona tu pais de origen: </label>
+      <select name="pais" id="pais">
+        <optgroup label="America">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Uruguay" selected>Uruguay</option>
+        </optgroup>
+
+        <optgroup label="Europa">
+          <option value="Alemania">Alemania</option>
+          <option value="Espana">Espana</option>
+          <option value="Inglaterra">Inglaterra</option>
+        </optgroup>
+      </select>
+      <!-- Input Date -->
+      <br />
+      <label for="fecha">Fecha de ingreso laboral: </label>
+      <input type="date" name="fecha" id="fecha" max="2023-11-17" />
+      <!-- Combos de envio -->
+      <!-- Button es un boton-->
+      <br />
+      <input type="button" value="Enviar tus datos" /> Enviar
+      <br />
+      <!-- Submit ejecuta el formulario -->
+      <input type="submit" value="Enviar tus datos" /> Submit
+      <!-- Resetea el formulario -->
+      <br />
+      <input type="reset" value="Resetea el formulario" /> Resetear formulario
+      <br /><br />
+      <!-- Alertas en botones -->
+      <input
+        type="button"
+        onclick="alert('Suscribite a mi canal')"
+        value="Saludando"
+      />
+      <!-- Lo mismo que lo anterior -->
+      <button onclick="alert('Suscribite al canal')">Hazme click</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

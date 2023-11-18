@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>iFrames</title>
+  </head>
+  <body>
+    <!-- Insertar videos de Youtube -->
+    <h1>Video externo insertado:</h1>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/bNV6iw13Rnk?si=yp6AZuNSOKEhHATI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- Insertar contenido de soundcloud -->
+    <iframe
+      width="100%"
+      height="300"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1638569946&color=%230a0a0a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    ></iframe>
+    <div
+      style="
+        font-size: 10px;
+        color: #cccccc;
+        line-break: anywhere;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+          Garuda, Verdana, Tahoma, sans-serif;
+        font-weight: 100;
+      "
+    >
+      <a
+        href="https://soundcloud.com/kencarson"
+        title="Ken Carson"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Ken Carson</a
+      >
+      ·
+      <a
+        href="https://soundcloud.com/kencarson/fighting-demons"
+        title="Fighting My Demons"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Fighting My Demons</a
+      >
+    </div>
+
+    <!-- Iframe abriendo Google -->
+    <iframe src="https://www.google.com" frameborder="0"></iframe>
+
+    <!-- IFrame de ubicacion -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.891763228265!2d-87.68955032577159!3d14.317719283941592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65832111303641%3A0x3d59f76798b3f22!2sCEB%20Adelina%20Mart%C3%ADnez%20Avila!5e0!3m2!1ses-419!2shn!4v1700269534843!5m2!1ses-419!2shn"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <!-- Importar archivos JS -->
+    <script src="index.js"></script>
+  </body>
+</html>

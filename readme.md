@@ -16,6 +16,12 @@ Este curso es del canal de [SergiCode](https://www.youtube.com/watch?v=bNV6iw13R
 - Atajo de Teclado ALT + SHIFT + FLECHA ABAJO para copiar la fila actual abajo de la posicion actual.
 - Atajo de Teclado ALT + CLICK para seleccionar varias posiciones en varias filas.
 - Atajo de Teclado ALT + FLECHA ABAJO/ARRIBA para mover la fila actual hacia abajo.
+- Utilizar la etiqueta HTML "picture" para colocar varias imagenes en varios formatos, usar formatos .avif, .webp y como ultima opcion png.
+- Utilizar iFrame para utilizar contenido de terceros en nuestra pagina web.
+- Investigar sobre todos los inputs en HTML.
+- Method get envia valor del formulario como una url separada en clave-valor (no se envia cuando hay contrasenas), post lo envia como una request body
+- Investigar sobre expresiones regulares.
+- El required no se maneja mediante HTML ya que es muy facil de hackear.
 
 ## Utilizar para hacer diseños
 
